@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD978" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#9A7B1C" />
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1A1810" />
+      <stop offset="100%" stop-color="#050505" />
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bgGlow)" stroke="#D4AF37" stroke-width="1.5" />
+  <!-- Stylized King Crown & Knight silhouette -->
+  <path d="M20 46h24v3H20zm2-4h20v2H22zm10-26l3 7h5l-4 4 2 7-6-4-6 4 2-7-4-4h5z" fill="url(#goldGrad)" />
+  <path d="M32 10v4M30 12h4" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+  <text x="32" y="38" font-family="'Cinzel', serif" font-weight="800" font-size="11" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="1">KS</text>
+</svg>

@@ -68,7 +68,7 @@ export const Hero = () => {
           <div className="flex flex-wrap gap-y-2 gap-x-6 text-xs sm:text-sm text-[#A8AFB8] pt-1">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" />
-              <span>Certified FIDE Coaching</span>
+              <span>Certified Coaching</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-[#D4AF37]" />

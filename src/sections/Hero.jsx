@@ -59,7 +59,7 @@ export const Hero = () => {
                 Direct Mentorship
               </span>
               <span className="text-xs sm:text-sm font-semibold text-[#F5F2EA]">
-                {founder.name} — <span className="text-[#F2D58A] font-normal">FIDE Arbiter (FA), Arena Int'l Master (AIM)</span>
+                {founder.name} <span className="text-[#F2D58A] font-normal">({founder.education})</span> — <span className="text-[#F2D58A] font-normal">FIDE Arbiter (FA), Arena International Master (AIM)</span>
               </span>
             </div>
           </div>

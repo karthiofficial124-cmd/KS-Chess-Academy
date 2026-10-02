@@ -48,8 +48,11 @@ export const Founder = () => {
                 <span className="text-xs font-bold tracking-widest text-[#D4AF37] uppercase block">
                   {founder.designation}
                 </span>
-                <h3 className="text-3xl sm:text-4xl md:text-5xl font-cinzel font-black text-white tracking-wide">
-                  {founder.name}
+                <h3 className="flex flex-wrap items-baseline gap-x-3 text-3xl sm:text-4xl md:text-5xl font-cinzel font-black text-white tracking-wide">
+                  <span>{founder.name}</span>
+                  <span className="text-sm sm:text-base font-sans font-semibold tracking-normal text-[#F2D58A]">
+                    {founder.education}
+                  </span>
                 </h3>
                 <p className="text-sm font-semibold text-[#8BB8EE] tracking-wider">
                   FIDE Arbiter (FA) • Arena International Master (AIM)
@@ -69,11 +72,11 @@ export const Founder = () => {
                 </div>
                 <div className="p-3.5 rounded-2xl bg-[#0A0E15] border border-white/10 flex items-center gap-2.5">
                   <Trophy className="w-4 h-4 text-[#F2D58A] shrink-0" />
-                  <span className="text-xs font-semibold text-[#F5F2EA]">Arena Int'l Master</span>
+                  <span className="text-xs font-semibold text-[#F5F2EA]">Arena International Master</span>
                 </div>
                 <div className="p-3.5 rounded-2xl bg-[#0A0E15] border border-white/10 flex items-center gap-2.5">
                   <Star className="w-4 h-4 text-[#70A5E0] shrink-0" />
-                  <span className="text-xs font-semibold text-[#F5F2EA]">Int'l FIDE Rated</span>
+                  <span className="text-xs font-semibold text-[#F5F2EA]">International FIDE Rated</span>
                 </div>
                 <div className="p-3.5 rounded-2xl bg-[#0A0E15] border border-white/10 flex items-center gap-2.5">
                   <Crown className="w-4 h-4 text-[#8CD1B8] shrink-0" />

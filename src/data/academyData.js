@@ -16,6 +16,7 @@ export const ACADEMY_DATA = {
   founder: {
     name: "M. Karthiganes",
     credentials: "FA, AIM",
+    education: "B.A., LL.B. (Pursuing)",
     designation: "FOUNDER & CHESS COACH",
     bio: "Dedicated to nurturing strategic acumen, mental discipline, and chess mastery through structured, time-tested coaching methodologies tailored for kids, students, and adult competitors.",
     credentialsList: [

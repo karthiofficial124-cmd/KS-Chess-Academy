@@ -19,6 +19,10 @@ export function App() {
   return (
     <EnquiryProvider>
       <div className="min-h-screen bg-[#07090C] text-[#F5F2EA] flex flex-col selection:bg-[#D4AF37] selection:text-[#07090C]">
+        <div className="logo-wallpaper" aria-hidden="true">
+          <div className="logo-wallpaper__image" />
+        </div>
+
         {/* Top Sticky Navigation */}
         <Navbar />
 

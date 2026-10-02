@@ -121,6 +121,35 @@
   background-size: 32px 32px;
 }
 
+.logo-wallpaper {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0.08;
+  mix-blend-mode: screen;
+}
+
+.logo-wallpaper__image {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: min(76vw, 720px);
+  aspect-ratio: 872 / 768;
+  background: url("/images/ks-chess-academy-logo.png") center / contain no-repeat;
+  animation: logoWallpaperDrift 36s ease-in-out infinite;
+}
+
+@keyframes logoWallpaperDrift {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(0, -16px, 0) scale(1.035);
+  }
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 7px;
